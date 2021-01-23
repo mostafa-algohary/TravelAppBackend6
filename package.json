@@ -2,36 +2,21 @@
   "name": "ReadBooks",
   "version": "1.0.0",
   "description": "",
-<<<<<<< HEAD
   "main": "app.js",
-=======
-  "main": "index.js",
->>>>>>> df3c7f559e1b5ac6c68f81401a81441e28c71d4b
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
-<<<<<<< HEAD
   "engines": {
-=======
-  "engines":{
->>>>>>> df3c7f559e1b5ac6c68f81401a81441e28c71d4b
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "azure-mobile-apps": "github:azure/azure-mobile-apps-node",
+    "azure-mobile-apps": "^4.0.1",
     "express": "^4.17.1",
     "node-pre-gyp": "^0.17.0",
     "sqlite3": "^5.0.0"
   }
-=======
-    "azure-mobile-apps": "^4.0.1",
-    "express": "^4.17.1"
-  }
-  
->>>>>>> df3c7f559e1b5ac6c68f81401a81441e28c71d4b
 }

@@ -2,22 +2,15 @@
 // Copyright (c) 2015 Microsoft Corporation. All rights reserved.
 // ----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-=======
 use strict
 
->>>>>>> df3c7f559e1b5ac6c68f81401a81441e28c71d4b
 // This is a base-level Azure Mobile App SDK.
 var express = require('express'),
     azureMobileApps = require('azure-mobile-apps');
 
 // Set up a standard Express app
 var app = express();
-<<<<<<< HEAD
-console.log('log app.js');
-=======
 
->>>>>>> df3c7f559e1b5ac6c68f81401a81441e28c71d4b
 // If you are producing a combined Web + Mobile app, then you should handle
 // anything like logging, registering middleware, etc. here
 
@@ -43,8 +36,4 @@ mobile.tables.initialize()
     .then(function () {
         app.use(mobile);    // Register the Azure Mobile Apps middleware
         app.listen(process.env.PORT || 3000);   // Listen for requests
-<<<<<<< HEAD
-        console.log('log app.js');
-=======
->>>>>>> df3c7f559e1b5ac6c68f81401a81441e28c71d4b
     });

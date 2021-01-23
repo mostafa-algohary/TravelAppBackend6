@@ -1,5 +1,5 @@
 {
-  "name": "ReadBooks",
+  "name": "TravelAppBackend",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -14,7 +14,7 @@
     "npm": ">=6.0.0"
   },
   "dependencies": {
-    "azure-mobile-apps": "^4.0.1",
+    "azure-mobile-apps": "github:azure/azure-mobile-apps-node",
     "express": "^4.17.1",
     "node-pre-gyp": "^0.17.0",
     "sqlite3": "^5.0.0"

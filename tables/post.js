@@ -4,7 +4,7 @@ var table = azureMobileApps.table();
 table.dynamicSchema = true;
 
 table.read(function (context) {
-    return context.execute();
+    //return context.execute();
     return "ssss";
     
 });

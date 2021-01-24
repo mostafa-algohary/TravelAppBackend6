@@ -1,4 +1,4 @@
-console.log('app js hit');
+//console.log('app js hit');
 var express = require('express');
 var azureMobileApps = require('azure-mobile-apps');
 

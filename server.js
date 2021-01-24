@@ -6,3 +6,4 @@ mobileApp.tables.add('Post'); // Create a table for 'Post' with default settings
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
+console.log('Server JS App listening to :'  + process.env.PORT);

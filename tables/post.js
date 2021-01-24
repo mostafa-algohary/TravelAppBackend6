@@ -1,4 +1,7 @@
-var table = module.exports = require('azure-mobile-apps').table();
+var azureMobileApps = require('azure-mobile-apps');
+var table = azureMobileApps.table();
+
+table.dynamicSchema = true;
 
 table.read(function (context) {
     return context.execute();
@@ -16,3 +19,5 @@ table.update(function (context) {
 table.delete(function (context) {
     return context.execute();
 });
+
+module.exports = table;

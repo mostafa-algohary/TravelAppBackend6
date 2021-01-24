@@ -5,6 +5,7 @@ table.dynamicSchema = true;
 
 table.read(function (context) {
     return context.execute();
+    return "ssss";
     
 });
 

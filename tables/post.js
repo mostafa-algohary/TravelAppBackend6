@@ -6,9 +6,14 @@ table.access = 'anonymous';
 
 
 table.read(function (context) {
+   try {
+      
     console.log('read opertion');  
     return context.execute();
-    //return "ssss";
+    //return "ssss"; 
+   } catch (error) {
+       console.log("error : "+ error) 
+   }  
     
 });
 

@@ -6,7 +6,7 @@ table.access = 'authenticated';
 
 
 table.read(function (context) {
-    console.log('read opertion');
+    console.log('read opertion');  
     return context.execute();
     //return "ssss";
     

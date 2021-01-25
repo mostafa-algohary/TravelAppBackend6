@@ -6,7 +6,7 @@ var app = express(),
 mobile = azureMobileApps();
 
 // Import the files from the tables directory to configure the /tables endpoint
-//mobile.tables.import('./tables');
+mobile.tables.import('./tables');
 mobile.tables.add('tables/Post');
 mobile.tables.initialize()
     .then(function () {

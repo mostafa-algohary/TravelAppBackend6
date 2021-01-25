@@ -13,6 +13,9 @@ app.listen(process.env.PORT || 3000);   // Listen for requests
 console.log('server js end');
 
 
+
+
+
 // mobile.tables.initialize()
 //     .then(function () {
 //         app.use(mobile);    // Register the Azure Mobile Apps middleware

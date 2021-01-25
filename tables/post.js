@@ -6,7 +6,6 @@ table.access = 'anonymous';
 
 table.read(function (context) {
    try {
-      
     console.log('read opertion');     
     return context.execute();
     //return "ssss"; 

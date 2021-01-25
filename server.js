@@ -7,7 +7,7 @@ mobile = azureMobileApps();
 
 // Import the files from the tables directory to configure the /tables endpoint
 //mobile.tables.import('./tables');
-mobile.tables.add('Post');
+mobile.tables.add('post');
 app.use(mobile);    // Register the Azure Mobile Apps middleware
 app.listen(process.env.PORT || 3000);   // Listen for requests
 console.log('server js end');

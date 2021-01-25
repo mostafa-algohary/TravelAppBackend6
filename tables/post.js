@@ -4,7 +4,6 @@ var table = azureMobileApps.table();
 table.dynamicSchema = true;
 table.access = 'anonymous';
 
-
 table.read(function (context) {
    try {
       

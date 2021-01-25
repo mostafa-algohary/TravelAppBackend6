@@ -12,7 +12,7 @@ table.read(function (context) {
     return context.execute();
     //return "ssss"; 
    } catch (error) {
-       console.log("error : "+ error) 
+       console.log("error : ") 
    }  
     
 });

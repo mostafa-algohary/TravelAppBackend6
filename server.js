@@ -13,6 +13,5 @@ mobile.tables.initialize()
         app.use(mobile);    // Register the Azure Mobile Apps middleware
         app.listen(process.env.PORT || 3000);   // Listen for requests
        });
-
-
+       
 // mobileApp.tables.add('Post'); // Create a table for 'Post' with default settings

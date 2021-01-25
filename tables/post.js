@@ -2,10 +2,12 @@ var azureMobileApps = require('azure-mobile-apps');
 var table = azureMobileApps.table();
 
 table.dynamicSchema = true;
+table.access = 'authenticated';
+
 
 table.read(function (context) {
-    //return context.execute();
-    return "ssss";
+    return context.execute();
+    //return "ssss";
     
 });
 
